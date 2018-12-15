@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="9eb1e2f6-f766-4da3-b327-03744bbeccfb" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost/WcfService/JobService.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="JobService.xsd" MetadataType="Schema" ID="091f11ed-fe9d-408b-bd4a-843e36d851a4" SourceId="1" SourceUrl="http://localhost/WcfService/JobService.svc?xsd=xsd0" />
+    <MetadataFile FileName="JobService.wsdl" MetadataType="Wsdl" ID="62fe0bc0-e43c-43db-85d0-8342da189ab1" SourceId="1" SourceUrl="http://localhost/WcfService/JobService.svc?wsdl" />
+    <MetadataFile FileName="JobService1.xsd" MetadataType="Schema" ID="b2ff5287-2cb9-409a-be1a-358d4dc2c7a6" SourceId="1" SourceUrl="http://localhost/WcfService/JobService.svc?xsd=xsd2" />
+    <MetadataFile FileName="JobService2.xsd" MetadataType="Schema" ID="0a107e92-974d-4abd-9070-df371abc16c9" SourceId="1" SourceUrl="http://localhost/WcfService/JobService.svc?xsd=xsd1" />
+    <MetadataFile FileName="JobService.disco" MetadataType="Disco" ID="454a63fd-d025-4df2-adff-187e8fec8839" SourceId="1" SourceUrl="http://localhost/WcfService/JobService.svc?disco" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

@@ -1,0 +1,18 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+}
+
+@using (Html.BeginForm("index", "Service", FormMethod.Post))
+{
+    @Html.EditorForModel()
+    <br />
+
+    <input type="text" name="txtname" />
+    <br />
+    <input type="submit" name="getjobs" value="getjobs" />
+    <input type="submit" name="jobybyrole" value="jobybyrole" />
+}
+
+<label>@ViewBag.Message</label>
+

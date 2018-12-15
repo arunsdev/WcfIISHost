@@ -1,0 +1,19 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+}
+
+@using (Html.BeginForm("index", "Calculator", FormMethod.Post))
+{
+    @Html.EditorForModel()
+    <br />
+
+    <input type="number" name="txtval1" />
+    <input type="number" name="txtval2" />
+    <br />
+    <input type="submit" name="add" value="add" />
+    <input type="submit" name="substract" value="substract" />
+}
+
+<label>@ViewBag.Message</label>
+
